@@ -85,6 +85,9 @@
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\GUI_Scr.cs" />
     <Compile Include="Assets\Scripts\Menu_Scr.cs" />
+    <Compile Include="Assets\Scripts\scr_Character.cs" />
+    <Compile Include="Assets\Scripts\scr_MGBattle.cs" />
+    <Compile Include="Assets\Scripts\scr_Player.cs" />
     <Compile Include="Assets\Scripts\UniatChan_scr.cs" />
     <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
     <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
