@@ -281,6 +281,7 @@ GameObject:
   - component: {fileID: 114838577001918798}
   - component: {fileID: 33924653102270076}
   - component: {fileID: 114748069092405270}
+  - component: {fileID: 114592576691099324}
   m_Layer: 0
   m_Name: Oso_Marca
   m_TagString: Untagged
@@ -554,7 +555,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 2b08f665ad9357648b7edcb58183c03a, type: 2}
+  - {fileID: 2100000, guid: 8426b80900ca9c440b4f7b5e68171fca, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -632,6 +633,17 @@ MonoBehaviour:
   mImageTargetType: 0
   mWidth: 50.000004
   mHeight: 72.73839
+--- !u!114 &114592576691099324
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1690667021146166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fc915714501b3d4a8210a310f359a35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114748069092405270
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -83,7 +83,6 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Enemigo_Scr.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\GUI_Scr.cs" />
     <Compile Include="Assets\Scripts\Menu_Scr.cs" />
     <Compile Include="Assets\Scripts\scr_Character.cs" />
     <Compile Include="Assets\Scripts\scr_MGBattle.cs" />

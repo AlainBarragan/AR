@@ -204,6 +204,7 @@ GameObject:
   - component: {fileID: 114278435601453630}
   - component: {fileID: 33931958724670954}
   - component: {fileID: 114367956369602850}
+  - component: {fileID: 114304586351482848}
   m_Layer: 0
   m_Name: Dragon Marca
   m_TagString: Untagged
@@ -1577,7 +1578,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 15f5fc9ffe1056946bf066929941ef6e, type: 2}
+  - {fileID: 2100000, guid: 0d1d90994aa7f7d40a3844c6898e4815, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1632,6 +1633,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e246bd21db86f8346bc66895a661fcc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114304586351482848
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1293195489095632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fc915714501b3d4a8210a310f359a35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &114367956369602850

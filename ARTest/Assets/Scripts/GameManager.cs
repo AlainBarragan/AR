@@ -20,6 +20,8 @@ public class GameManager : MonoBehaviour
     {
         jugador = b;
 
+        Debug.Log("Jugador: " + jugador + " Enemigos: " + num_enemigos);
+
         if (jugador && num_enemigos > 0)
             ActivarUI();
         else
