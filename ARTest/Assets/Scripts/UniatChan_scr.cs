@@ -21,12 +21,10 @@ public class UniatChan_scr : MonoBehaviour, ITrackableEventHandler
         if (NewSta == TrackableBehaviour.Status.DETECTED || NewSta == TrackableBehaviour.Status.TRACKED)
         {
             gameManager.SetBJugador(true);
-            Debug.Log("Ia estoy en la escena haha salu2");
         }
         else
         {
             gameManager.SetBJugador(false);
-            Debug.Log("Ia me voy a dormir");
         }
     }
 }

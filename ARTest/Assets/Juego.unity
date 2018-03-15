@@ -113,6 +113,22 @@ Transform:
   m_PrefabParentObject: {fileID: 4660295282506342, guid: 263991df7075ab14a9da9517bdc8e8da,
     type: 2}
   m_PrefabInternal: {fileID: 1806742903}
+--- !u!1 &181464816 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1014837623335102, guid: 48592a83ad552f843af28f8f257211b2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1848818096}
+--- !u!114 &181464822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 181464816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fc915714501b3d4a8210a310f359a35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &320118019
 GameObject:
   m_ObjectHideFlags: 0
@@ -701,7 +717,6 @@ GameObject:
   - component: {fileID: 1342379411}
   - component: {fileID: 1342379410}
   - component: {fileID: 1342379409}
-  - component: {fileID: 1342379413}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -785,17 +800,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1342379413
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1342379408}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db69d7beaec992f4ea8796012bd85aa9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1635173277
 Prefab:
   m_ObjectHideFlags: 0
@@ -1102,6 +1106,11 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 2058955525}
+    - target: {fileID: 23587134332316030, guid: 48592a83ad552f843af28f8f257211b2,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b431b79b1b31b704c9a4eb3606b291e1, type: 2}
     m_RemovedComponents:
     - {fileID: 111155402298949988, guid: 48592a83ad552f843af28f8f257211b2, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 48592a83ad552f843af28f8f257211b2, type: 2}
